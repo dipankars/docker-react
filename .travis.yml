@@ -7,7 +7,7 @@ before_install:
 
 
 script:
- - docker run dipankars/docker-react npm run test -- --coverage 
+ #- docker run dipankars/docker-react npm run test -- --coverage 
 
 deploy:
  provider: elasticbneanstalk
